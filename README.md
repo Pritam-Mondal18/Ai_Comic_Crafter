@@ -36,9 +36,16 @@ The objective of ComicCrafter AI is to develop an application capable of generat
     <li><strong>Pyngrok</strong> (for public access via Colab)</li>
 </ul>
 
-## User Interface
+## User Interface for Desktop Users
 
 ![WhatsApp Image 2025-04-03 at 3 47 01 PM](https://github.com/user-attachments/assets/f28b21eb-cae3-4763-b359-c81b82352588)
+![WhatsApp Image 2025-04-03 at 3 51 31 PM](https://github.com/user-attachments/assets/dbc5d3f0-8375-4a72-9bfe-44b26745d749)
+
+## User Interface for Mobile Users
+
+![WhatsApp Image 2025-04-03 at 3 53 37 PM](https://github.com/user-attachments/assets/6b1d25db-075a-46b2-bb3d-2598235c9e4f)
+
+![WhatsApp Image 2025-04-03 at 3 53 38 PM](https://github.com/user-attachments/assets/cd8a5ae1-2a3c-4bbe-ae43-6a35040803c7)
 
 ## Installation & Setup
 
