@@ -38,7 +38,7 @@ The objective of ComicCrafter AI is to develop an application capable of generat
 
 ## User Interface
 
-![WhatsApp Image 2025-04-02 at 12 15 26 AM](https://github.com/user-attachments/assets/e55f478c-eb0e-4dc3-bba8-4badcc094613)
+![WhatsApp Image 2025-04-03 at 3 47 01 PM](https://github.com/user-attachments/assets/f28b21eb-cae3-4763-b359-c81b82352588)
 
 ## Installation & Setup
 
