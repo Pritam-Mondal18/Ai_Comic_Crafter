@@ -74,6 +74,12 @@ print(f"Streamlit app is live at: {public_url}")
 ## How to Use
 <ol> <li>1️⃣Enter your story elements (or let AI generate them for you).</li> <li>2️⃣Select a <strong>genre</strong> and <strong>comic style</strong>.</li> <li>3️⃣Click <strong>"Generate Story with AI"</strong> to auto-generate text.</li> <li>4️⃣Click <strong>"Generate Comic"</strong> to create AI-generated comic panels.</li> <li>5️⃣Download the comic as a ZIP file.</li> </ol>
 
+## Building the Architecture
+<p>The <strong>AI Comic Crafter</strong> follows a modular approach:</p> <ul> <li><strong>User Input Module</strong> – Collects user input (custom text or AI-generated story elements).</li> <li><strong>LLM-Based Story Generation</strong> – Uses <strong>LLaMA 3 / GPT-2</strong> to generate structured comic stories.</li> <li><strong>Image Generation Module</strong> – Uses <strong>Stable Diffusion XL</strong> to create images corresponding to the story panels.</li> <li><strong>Rendering & Display Module</strong> – Displays the generated comic story and images in <strong>Streamlit</strong> UI.</li> <li><strong>Download Module</strong> – Allows users to download the generated comic as a ZIP file.</li> </ul>
+
+## Challenges Faced
+<ul> <li><strong>Computational Constraints</strong> – Running <strong>Stable Diffusion XL</strong> without a dedicated GPU is slow. Solutions include cloud-based inference.</li> <li><strong>Story & Image Alignment</strong> – Ensuring AI-generated images match the context of the story is a challenge.</li> <li><strong>Fine-Tuning LLaMA 3</strong> – Adapting LLaMA 3 for structured comic storytelling requires iterative fine-tuning.</li> <li><strong>Real-Time Processing</strong> – Achieving low-latency text and image generation for an interactive experience.</li> </ul>
+
 ## Example Output
 
 ### 📝 <strong>Story Example:</strong>
@@ -83,14 +89,11 @@ print(f"Streamlit app is live at: {public_url}")
 ## 🖼️ <strong>Generated Comic Panels:
 </strong>![WhatsApp Image 2025-04-02 at 8 40 47 PM](https://github.com/user-attachments/assets/8ba43fdc-422f-4f8b-9f44-3b0f13a0a1c4)
 
+## Example Output as Video
+```bash
+https://drive.google.com/file/d/1fIwYihrIzCd_grkKgB1qIHbPCCnkFa5G/view?usp=sharing
+```
 
-
-
-## Building the Architecture
-<p>The <strong>AI Comic Crafter</strong> follows a modular approach:</p> <ul> <li><strong>User Input Module</strong> – Collects user input (custom text or AI-generated story elements).</li> <li><strong>LLM-Based Story Generation</strong> – Uses <strong>LLaMA 3 / GPT-2</strong> to generate structured comic stories.</li> <li><strong>Image Generation Module</strong> – Uses <strong>Stable Diffusion XL</strong> to create images corresponding to the story panels.</li> <li><strong>Rendering & Display Module</strong> – Displays the generated comic story and images in <strong>Streamlit</strong> UI.</li> <li><strong>Download Module</strong> – Allows users to download the generated comic as a ZIP file.</li> </ul>
-
-## Challenges Faced
-<ul> <li><strong>Computational Constraints</strong> – Running <strong>Stable Diffusion XL</strong> without a dedicated GPU is slow. Solutions include cloud-based inference.</li> <li><strong>Story & Image Alignment</strong> – Ensuring AI-generated images match the context of the story is a challenge.</li> <li><strong>Fine-Tuning LLaMA 3</strong> – Adapting LLaMA 3 for structured comic storytelling requires iterative fine-tuning.</li> <li><strong>Real-Time Processing</strong> – Achieving low-latency text and image generation for an interactive experience.</li> </ul>
 
 ## Contributing
 🚀 We welcome contributions! Feel free to fork the repo, submit pull requests, and enhance the project.
